@@ -1,0 +1,12 @@
+version: '3'
+services:
+  node-ts-starter:
+    image: "jjmschofield/node-ts-starter:${IMAGE_TAG}"
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+    environment:
+      - HTTP_PORT=3000
+      - HTTPS_PORT=3001
+      - PROC_TITLE=node-ts-starter
+      - HOST=localhost

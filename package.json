@@ -20,7 +20,7 @@
     "axios": "^0.19.0",
     "correlation-id": "^3.1.0",
     "dotenv-safe": "^6.1.0",
-    "koa": "^2.7.0",
+    "koa": "^2.15.4",
     "koa-cors": "0.0.16",
     "koa-helmet": "^4.1.0",
     "koa-router": "^7.4.0",
